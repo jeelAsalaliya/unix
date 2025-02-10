@@ -1,0 +1,4 @@
+read -p "enter a lowercase word:" $word 
+$upper_word=$(echo "$word" | tr '[:lower:]''[:upper:]') 
+echo "uppercase : $upper_word"
+
